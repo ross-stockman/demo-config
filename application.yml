@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://bnk-data:3306/bnk
     username: trucker
-    password: '{cipher}0076a723ffeb617130c5674cb5e0d00d9932377726c934b38c4f8131f5438616'
+    password: trucker
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 bnk:
