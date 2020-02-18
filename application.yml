@@ -19,3 +19,11 @@ bnk:
       uri: http://bnk-api-party:8080/parties
     account:
       uri: http://bnk-api-account:8080/accounts
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+  endpoint:
+    health:
+      show-details: always
