@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://bnk-data-data:3306/bnk
+    url: jdbc:mysql://bnk-data-app:3306/bnk
     username: trucker
     password: trucker
     driver-class-name: com.mysql.cj.jdbc.Driver
